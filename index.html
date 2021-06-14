@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!-- Document metadata-->
+        <title> Google Search Engine</title>
+        <style>
+            body {
+                background-color: white;
+            }
+            form {
+                width:auto;
+                margin:auto;
+                margin-top:auto;
+            }
+            input {
+                padding: 4px 10px;
+                border: 0;
+                font-size: 16px;
+            }
+            .search {
+                width: auto;
+            }
+            .submit {
+                width: auto;
+                background-color: violet;
+                color: teal;
+            }
+            .lucky {
+                width: auto;
+                background-color: violet;
+                color:teal
+            }
+        </style>
+    </head>
+    <body>
+        <!-- Document content-->
+        <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Main Google Logo">
+        <form action="/form/submit" method="GET">
+            <input type="text" name="text" class="search" placeholder="Search here!">
+            <input type="submit" name="submit" class="submit" value="Google Search">
+            <input type="submit" name="lucky" class="lucky" value="I'm Feeling Lucky">
+        </form>
+    </body>
+</html>
