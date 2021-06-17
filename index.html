@@ -5,34 +5,44 @@
         <link href="./resources/css/index.css" type="text/css" rel="stylesheet">
     </head>
     <body>
-        <ul>
-            <li><a href="#about">About</a></li>
-            <li><a href="#store">Store</a></li>
-            <li style="float:right"><a href="#gmail">Gmail</a></li>
-            <li style="float:right"><a href="images">Images</a></li>
-            <li style="float:right"><a href="googleapps">Google apps</a></li>
-            <li style="float:right"><a href="googleaccount">Google Account</a></li>
-    
-        </ul>
-       <div class="googlelogo">
-        <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Main Google Logo">
-       </div>
-        <form action="/form/submit" method="GET">
-        <div id="search_icon">
-            <input type="text" name="text" class="search" placeholder="Search here!">
-        </div>
-            <input type="submit" name="submit" class="submit" value="Google Search">
-            <input type="submit" name="lucky" class="lucky" value="I'm Feeling Lucky">
-        </form>
-
-        <div class="footer">
-            <a href="#advertising">Advertising</a>
-            <a href="#buisness">Buisness</a>
-            <a href="#howsearchwork">How Search works</a>
-            <a style="float:right" href="#privacy">Privacy</a>
-            <a style="float:right" href="#terms">Terms</a>
-            <a style="float:right" href="#settings">Settings</a>
-        </div>
+        <nav class="nav">
+            <ul class="leftalign">
+                <li><a href="#about">About</a></li>
+                <li><a href="#store">Store</a></li>
+            </ul>
+            <ul class="rightalign">
+                <li><a href="#gmail">Gmail</a></li>
+                <li><a href="images">Images</a></li>
+                <li><a href="googleapps">Google apps</a></li>
+                <li><a href="googleaccount">Google Account</a></li>
+            </ul>
+        </nav>
+                    
+        <main class="main">
+            <div class="googlelogo">
+                <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Main Google Logo">
+            </div>
+            <form action="/form/submit" method="GET">
+                <div id="search_icon">
+                    <input type="text" name="text" class="search" placeholder="Search here!">
+                </div>
+               
+                <input type="submit" name="submit" class="submit" value="Google Search">
+                <input type="submit" name="lucky" class="lucky" value="I'm Feeling Lucky">
+            </form>
+        </main>    
+        <footer class="footer">
+            <ul class="leftalign">
+                <li><a href="#advertising">Advertising</a></li>
+                <li><a href="#buisness">Buisness</a></li>   
+                <li><a href="#howsearchwork">How Search works</a></li>
+            </ul>
+            <ul class="rightalign">
+                <li><a style="float:right" href="#privacy">Privacy</a></li>
+                <li><a style="float:right" href="#terms">Terms</a></li>
+                <li><a style="float:right" href="#settings">Settings</a></li>
+            </ul>
+        </footer>
        
     </body>
 </html>
