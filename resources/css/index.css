@@ -1,5 +1,9 @@
-head {
-
+.flex {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    flex-direction: column;
+    flex-wrap: nowrap;
 }
 body {
     background-color: white;
@@ -8,22 +12,19 @@ body {
     margin: auto;
     text-align: center;
 }
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-}
+
 li {
     display: inline;
     float: left;
+    font-family: arial, sans-serif;
+    font-size: 14px;
+    margin: 5px;
+    vertical-align: middle;
 }
 li a {
-    display: block;
-    color: Black;
-    text-align: center;
     text-decoration: none;
-    padding: 14px
+    color: rgb(68, 68, 70);
+    padding-right: 5px;
 }
 
 .leftalign {
@@ -41,9 +42,6 @@ li a {
     padding: 0;
     list-style-type: none;
     overflow: hidden;
-}
-.main {
-
 }
 .googleimg {
     margin-top: 180px;
@@ -64,22 +62,19 @@ li a {
 .searchbutton {
 
 }
-.footer {
-    background-color: rgb(221, 221, 221);
-    overflow: hidden;
-    position: fixed;
+footer {
+    background-color:#f2f2f2;
+    position: absolute;
     bottom: 0;
     width: 100%;
+    height: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-width: .5pt;
+    border-style: solid;
+    border-color: rgb(236, 235, 235)
 }
-.footer a {
-    float: left;
-    display: block;
-    color: rgb(58, 58, 58);
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 17px;
-}
+
 .leftalignfoot {
     float: left;
     padding-left: 20px;
@@ -88,4 +83,6 @@ li a {
     float: right;
     padding-right: 20px;
 }
-
+.color {
+    color: rgb(106, 106, 107);
+}
