@@ -55,11 +55,11 @@ li a {
     height: 20px;
     margin: 0;
     padding-left: 30px;
-    width: 400px;
+    width: 580px;
     height: 30px;
     background: white;
     border: 1px solid gray;
-    border-radius: 20px;
+    border-radius: 30px;
 }
 .material-icons {
     position: absolute;
@@ -68,7 +68,7 @@ li a {
     width: 10px; 
     height: 15px;
 }
-button {
+.searchbutton {
     margin: auto;
     text-align: center;
 }
